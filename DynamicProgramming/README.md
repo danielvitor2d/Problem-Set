@@ -3,4 +3,4 @@
 Problem | Solution
 ------- | --------
 [Couples](https://www.urionlinejudge.com.br/judge/en/problems/view/2939) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Couples/Couples.cpp)
-[Dice Combinations](https://cses.fi/problemset/task/1633/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Dice-Cimbinations/Dice-Combinations.cpp)
+[Dice Combinations](https://cses.fi/problemset/task/1633/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Dice-Combinations/Dice-Combinations.cpp)
