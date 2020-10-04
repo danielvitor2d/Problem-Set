@@ -12,3 +12,8 @@ Problem | Solution
 Problem | Solution
 ------- | --------
 [Pharaoh's Bank](https://www.urionlinejudge.com.br/judge/en/problems/view/2071) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/SegmentTree/Pharaohs-Bank/Pharaohs-Bank.cpp)
+
+## Inversions Count
+
+Problem | Solution
+[Bubbles and Brackets](https://www.urionlinejudge.com.br/judge/en/problems/view/1088) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Bubbles-and-Buckets/Bubbles-and-Buckets.cpp)
