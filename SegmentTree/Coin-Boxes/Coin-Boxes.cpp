@@ -58,10 +58,11 @@ struct SegmentTree {
 
 	i64 lazy[4*maxn];
 	Node tree[4*maxn];
+	Node neutral;
 
 	void upLazy(int node, int l, int r) {
 		if (lazy[node] == -1LL) return;
-		tree[node].value = lazy[node] * 1LL * (r - l + 1LL);
+		tree[node].value = lazy[node] * (r - l + 1LL);
 		if (l != r) {
 			int lc = (node << 1);
 			lazy[lc] = lazy[node];
@@ -100,7 +101,7 @@ struct SegmentTree {
 
 	Node query(int node, int l, int r, int ql, int qr) {
 		upLazy(node, l, r);
-		if (r < l or qr < ql or qr < l or r < ql) return Node(0LL);
+		if (r < l or qr < ql or qr < l or r < ql) return neutral;
 		if (ql <= l and r <= qr) return tree[node];
 		int mid = (l+r)/2;
 		int lc = (node << 1);
@@ -119,10 +120,6 @@ int main() {
     fastIO();
 
     cin >> n >> q;
-
-    for (int i = 0; i < 4 * maxn; ++i) {
-    	T.lazy[i] = -1;
-    }
 
     v = vi64(n+1);
     for (int i = 1; i <= n; ++i) {
