@@ -8,6 +8,9 @@ Problem | Solution
 [Rain](https://neps.academy/problem/58) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Rain/Rain.cpp)
 
 ## With lazy propagation
+
+Problem | Solution
+------- | --------
 [Coin Boxes](https://neps.academy/problem/347) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Coin-Boxes/Coin-Boxes.cpp)
 
 ## Subsegments with maximal sum
