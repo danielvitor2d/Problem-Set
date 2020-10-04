@@ -1,6 +1,6 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem: Periodic Cidadas
+	Problem: Periodic Cicadas
 	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/2660
 	Origin: SBC Programming Marathon - ACM ICPC - 2017
 */
@@ -47,8 +47,7 @@ const int mod = 1e9+7;
 i64 gcd(i64 a, i64 b) { return (b == 0 ? a : gcd(b, a%b)); }
 i64 lcm(i64 a, i64 b) { return (a/gcd(a, b)*b); }
 
-int n, l;
-i64 a, x, d, ans, mx;
+i64 n, l, a, x, d, ans, mx;
 
 
 int main() {
