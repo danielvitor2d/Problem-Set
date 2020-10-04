@@ -41,7 +41,7 @@ const int dtyc[] = {2, -2, 1, -1,  2, -2,  1, -1};
 
 const double pi = acos(-1.0);
 const int inf = 0x3f3f3f3f;
-const int maxn = 2e5+5;
+const int maxn = 1e2+5;
 const int maxsum = 1e6+5;
 const int mod = 1e9+7;
 
@@ -55,12 +55,13 @@ int main() {
     	cin >> c[i];
     }
 
-    for (int i = 1; i <= x; ++i) dp[i] = inf;
     dp[0] = 0;
-
-    for (int i = 1; i <= n; ++i) {
-    	for (int j = c[i]; j <= x; ++j) {
-    		dp[j] = min(dp[j], dp[j-c[i]] + 1);
+	for (int i = 1; i <= x; ++i) {
+		dp[i] = inf;
+    	for (int j = 1; j <= n; ++j) {
+    		if (i >= c[j]) {
+    			dp[i] = min(dp[i], dp[i-c[j]] + 1);
+    		}
     	}
     }
 
