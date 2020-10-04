@@ -1,8 +1,8 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem: Interval Product
-	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1301
-	Origin: ACM/ICPC South America Contest 2012
+	Problem: Pharaoh's Bank
+	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/2071
+	Origin: XIV IME-USP Programming Marathon, 2010
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,23 +41,30 @@ const int dtyc[] = {2, -2, 1, -1,  2, -2,  1, -1};
 
 const double pi = acos(-1.0);
 const int inf = 0x3f3f3f3f;
+const i64 linf = 1e15;
 const int maxn = 1e5+5;
 const int mod = 1e9+7;
 
 struct SegmentTree {
 
 	struct Node {
-		int value;
-		Node(int x) : value(x) {}
-		Node () : value(1) {}
+		pair<i64, int> ans, pref, suff, sum;
+		Node(i64 x, int c = 1) {
+			ans = pref = suff = sum = {x, c};
+		}
+		Node () {}
 	};
 
 	Node join(const Node& a, const Node& b) {
-		return Node(a.value * b.value);
+		Node ans;
+		ans.pref = max(a.pref, {a.sum.fi + b.pref.fi, a.sum.se + b.pref.se});
+		ans.suff = max({a.suff.fi + b.sum.fi, a.suff.se + b.sum.se}, b.suff);
+		ans.sum = {a.sum.fi + b.sum.fi, a.sum.se + b.sum.se};
+		ans.ans = max({a.suff.fi + b.pref.fi, a.suff.se + b.pref.se}, max(a.ans, b.ans));
+		return ans;
 	}
 
 	Node tree[4*maxn];
-	Node neutral;
 
 	void build(int node, int l, int r, vector<int> &v) {
 		if (l == r) {
@@ -73,7 +80,7 @@ struct SegmentTree {
 
 	void update(int node, int l, int r, int idx, int value) {
 		if (l == r) {
-			tree[node] = value;
+			tree[node] = Node(value);
 			return;
 		}
 		int mid = (l+r)/2;
@@ -84,7 +91,7 @@ struct SegmentTree {
 	}
 
 	Node query(int node, int l, int r, int ql, int qr) {
-		if (r < l or qr < l or r < ql) return neutral;
+		if (r < l or qr < l or r < ql) return Node(-linf, 0);
 		if (ql <= l and r <= qr) return tree[node];
 		int mid = (l+r)/2;
 		int lc = (node << 1);
@@ -94,35 +101,30 @@ struct SegmentTree {
 
 };
 
-int n, k, a, b, rs;
-SegmentTree T; 
-char op;
+int tc, n, q, a, b;
+SegmentTree T;
+pair<i64, int> rs;
 vi v;
 
 int main() {
     fastIO();
-    while (cin >> n >> k and n) {
+    cin >> tc;
+    while (tc--) {
+    	cin >> n;
     	v = vi(n+1);
 
     	for (int i = 1; i <= n; ++i) {
     		cin >> v[i];
-    		v[i] = v[i] > 0 ? 1 : v[i] < 0 ? -1 : 0;
     	}
 
     	T.build(1, 1, n, v);
 
-    	while (k--) {
-    		cin >> op >> a >> b;;
-    		if (op == 'C') {
-    			b = b > 0 ? 1 : b < 0 ? -1 : 0;
-    			T.update(1, 1, n, a, b);
-    		} else {
-    			rs = T.query(1, 1, n, a, b).value;
-    			cout << (rs > 0 ? '+' : rs < 0 ? '-' : '0');
-    		}
+    	cin >> q;
+    	while (q--) {
+    		cin >> a >> b;
+    		rs = T.query(1, 1, n, a, b).ans;
+    		cout << rs.fi << ' ' << rs.se << '\n';
     	}
-
-    	cout << '\n';
     }
     return 0;
 }

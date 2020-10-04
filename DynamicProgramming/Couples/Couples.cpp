@@ -1,5 +1,5 @@
 /*
-	Author: Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
+	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
 	Problem: Couples
 	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/2939
 	Origin: III Northern Programming Marathon (Brazin)
