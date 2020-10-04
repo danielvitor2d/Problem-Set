@@ -4,4 +4,4 @@
 
 Problem | Solution
 ------- | --------
-[Interval Product](https://www.urionlinejudge.com.br/judge/en/problems/view/1301) | [Link to the solution](/Interval-Product/Interval-Product.cpp)
+[Interval Product](https://www.urionlinejudge.com.br/judge/en/problems/view/1301) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/SegmentTree/Interval-Product/Interval-Product.cpp)
