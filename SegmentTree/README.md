@@ -16,4 +16,5 @@ Problem | Solution
 ## Inversions Count
 
 Problem | Solution
+------- | --------
 [Bubbles and Brackets](https://www.urionlinejudge.com.br/judge/en/problems/view/1088) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Bubbles-and-Buckets/Bubbles-and-Buckets.cpp)
