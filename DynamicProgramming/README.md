@@ -8,3 +8,4 @@ Problem | Solution
 [Coin Combinations I](https://cses.fi/problemset/task/1635/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Coin-Combinations-I/Coin-Combinations-I.cpp)
 [Change](https://neps.academy/problem/509) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Change/Change.cpp)
 [Letters](https://neps.academy/problem/61) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Letters/Letters.cpp)
+[Christmas Tree](https://www.urionlinejudge.com.br/judge/en/problems/view/2026) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Christmas-Tree/Christmas-Tree.cpp)
