@@ -18,3 +18,4 @@ Problem | Solution
 [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Knapsack-1/Knapsack-1.cpp)
 [Strawberry Candies](https://www.urionlinejudge.com.br/judge/en/problems/view/2524) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Strawberry-Candies/Strawberry-Candies.cpp)
 [Bad XOR](https://www.spoj.com/problems/BADXOR/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/BADXOR/BADXOR.cpp)
+[Cafeteria](https://www.urionlinejudge.com.br/judge/en/problems/view/2089) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Cafeteria/Cafeteria.cpp)
