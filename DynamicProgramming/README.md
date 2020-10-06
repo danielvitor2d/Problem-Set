@@ -11,3 +11,4 @@ Problem | Solution
 [Christmas Tree](https://www.urionlinejudge.com.br/judge/en/problems/view/2026) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Christmas-Tree/Christmas-Tree.cpp)
 [Destruction Cannon](https://www.urionlinejudge.com.br/judge/en/problems/view/1288) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Destruction-Cannon/Destruction-Cannon.cpp)
 [Santa Claus Bag](https://www.urionlinejudge.com.br/judge/en/problems/view/1767) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Santa-Claus-Bag/Santa-Claus-Bag.cpp)
+[Six Flags](https://www.urionlinejudge.com.br/judge/en/problems/view/1487) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/Dyna    micProgramming/Six-Flags/Six-Flags.cpp)
