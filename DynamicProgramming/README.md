@@ -15,3 +15,4 @@ Problem | Solution
 [Motoboy](https://www.urionlinejudge.com.br/judge/en/problems/view/1286) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Motoboy/Motoboy.cpp)
 [Promotion](https://www.urionlinejudge.com.br/judge/en/problems/view/1624) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotion/Promotion.cpp)
 [Help Leonardo!](https://www.urionlinejudge.com.br/judge/en/problems/view/2169) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Help-Leonardo/Help-Leonardo.cpp)
+[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Knapsack-1/Knapsack-1.cpp)
