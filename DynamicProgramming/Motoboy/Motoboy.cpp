@@ -1,8 +1,8 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem: Destruction Cannon
-	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1288
-    Origin: Unknown
+	Problem: Motoboy
+	Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1286
+	Origin: Unknown
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,38 +41,25 @@ const int dtyc[] = {2, -2, 1, -1,  2, -2,  1, -1};
 
 const double pi = acos(-1.0);
 const int inf = 0x3f3f3f3f;
-const int maxn = 55;
+const int maxn = 105;
 const int mod = 1e9+7;
 
-int tc, n, s, r;
-int c[maxn], p[maxn];
-int dp[110];
+int n, s;
+int c, p;
+int dp[maxn];
 
 int main() {
     fastIO();
-    cin >> tc;
-    while (tc--) {
-    	cin >> n;
-
-    	for (int i = 0; i < n; ++i) {
-    		cin >> p[i] >> c[i];
-    	}
-
-    	cin >> s >> r;
-
+    while (cin >> n and n) {
+    	cin >> s;
     	for (int i = 0; i <= s; ++i) dp[i] = 0;
-
     	for (int i = 0; i < n; ++i) {
-    		for (int j = s; j >= c[i]; --j) {
-    			dp[j] = max(dp[j], dp[j-c[i]] + p[i]);
+    		cin >> p >> c;
+    		for (int j = s; j >= c; --j) {
+    			dp[j] = max(dp[j], p + dp[j-c]);
     		}
     	}
-
-    	if (dp[s] >= r) {
-    		cout << "Missao completada com sucesso\n";
-    	} else {
-    		cout << "Falha na missao\n";
-    	}
+    	cout << dp[s] << " min.\n";
     }
     return 0;
 }
