@@ -14,3 +14,4 @@ Problem | Solution
 [Six Flags](https://www.urionlinejudge.com.br/judge/en/problems/view/1487) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Six-Flags/Six-Flags.cpp)
 [Motoboy](https://www.urionlinejudge.com.br/judge/en/problems/view/1286) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Motoboy/Motoboy.cpp)
 [Promotion](https://www.urionlinejudge.com.br/judge/en/problems/view/1624) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotion/Promotion.cpp)
+[Help Leonardo!](https://www.urionlinejudge.com.br/judge/en/problems/view/2169) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Help-Leonardo/Help-Leonardo.cpp)
