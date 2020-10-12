@@ -4,6 +4,8 @@
 Problem | Solution
 ------- | --------
 [Apology](https://www.urionlinejudge.com.br/judge/en/problems/view/2299) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Apology/Apology.cpp)
+[Promotions](https://www.urionlinejudge.com.br/judge/en/problems/view/2776) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotions/Promotions.cpp)
+[Promotion](https://www.urionlinejudge.com.br/judge/en/problems/view/1624) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotion/Promotion.cpp)
 
 Problem | Solution
 ------- | --------
@@ -18,7 +20,6 @@ Problem | Solution
 [Santa Claus Bag](https://www.urionlinejudge.com.br/judge/en/problems/view/1767) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Santa-Claus-Bag/Santa-Claus-Bag.cpp)
 [Six Flags](https://www.urionlinejudge.com.br/judge/en/problems/view/1487) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Six-Flags/Six-Flags.cpp)
 [Motoboy](https://www.urionlinejudge.com.br/judge/en/problems/view/1286) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Motoboy/Motoboy.cpp)
-[Promotion](https://www.urionlinejudge.com.br/judge/en/problems/view/1624) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotion/Promotion.cpp)
 [Help Leonardo!](https://www.urionlinejudge.com.br/judge/en/problems/view/2169) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/DynamicProgramming/Help-Leonardo/Help-Leonardo.cpp)
 [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Knapsack-1/Knapsack-1.cpp)
 [Strawberry Candies](https://www.urionlinejudge.com.br/judge/en/problems/view/2524) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Strawberry-Candies/Strawberry-Candies.cpp)
