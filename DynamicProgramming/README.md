@@ -6,6 +6,7 @@ Problem | Solution
 [Apology](https://www.urionlinejudge.com.br/judge/en/problems/view/2299) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Apology/Apology.cpp)
 [Promotions](https://www.urionlinejudge.com.br/judge/en/problems/view/2776) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotions/Promotions.cpp)
 [Promotion](https://www.urionlinejudge.com.br/judge/en/problems/view/1624) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Promotion/Promotion.cpp)
+[In Search of the Perfect Body](https://neps.academy/problem/281) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/In-Search-of-the-Perfect-Body/In-Search-of-the-Perfect-Body.cpp)
 
 Problem | Solution
 ------- | --------
