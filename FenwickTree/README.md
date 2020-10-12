@@ -12,4 +12,5 @@ Problem | Solution
 ------- | --------
 [Crossed Lines](https://neps.academy/problem/63) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Crossed-Lines/Crossed-Lines.cpp)
 [Ballet](https://neps.academy/problem/536) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Ballet/Ballet.cpp)
-[Bow-and-Arrow](https://neps.academy/problem/6) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Bow-and-Arrow/Bow-and-Arrow.cpp)
+[Bow and Arrow](https://neps.academy/problem/6) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Bow-and-Arrow/Bow-and-Arrow.cpp)
+[High Five](https://www.urionlinejudge.com.br/judge/en/problems/view/2539) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/High-Five/High-Five.cpp)
