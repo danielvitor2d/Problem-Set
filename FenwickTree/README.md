@@ -1,12 +1,16 @@
 # Fenwick Tree
 
 ## Classical applications
+
 Problem | Solution
 ------- | --------
 [Mathematicians Needed in Mars](https://www.urionlinejudge.com.br/judge/en/problems/view/1804) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Mathematicians-Needed-in-Mars/Mathematicians-Needed-in-Mars.cpp)
 [Gym](https://www.urionlinejudge.com.br/judge/en/problems/view/2538) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Gym/Gym.cpp)
 
 ## Indice Count
+
+Problem | Solution
+------- | --------
 [Golnaldinho](https://www.urionlinejudge.com.br/judge/en/problems/view/2792) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Golnaldinho/Golnaldinho.cpp)
 
 ## Inversions Count
