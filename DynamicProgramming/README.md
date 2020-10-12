@@ -1,5 +1,10 @@
 # Dynamic Programming
 
+## 0-1 Knapsack
+Problem | Solution
+------- | --------
+[Apology](https://www.urionlinejudge.com.br/judge/en/problems/view/2299) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Apology/Apology.cpp)
+
 Problem | Solution
 ------- | --------
 [Couples](https://www.urionlinejudge.com.br/judge/en/problems/view/2939) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/DynamicProgramming/Couples/Couples.cpp)
