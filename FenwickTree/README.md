@@ -1,5 +1,10 @@
 # Fenwick Tree
 
+## Classical applications
+Problem | Solution
+------- | --------
+[Mathematicians Needed in Mars](https://www.urionlinejudge.com.br/judge/en/problems/view/1804) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Mathematicians-Needed-in-Mars/Mathematicians-Needed-in-Mars.cpp)
+
 ## Inversions Count
 
 Problem | Solution
