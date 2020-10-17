@@ -9,3 +9,4 @@ Problem | Solution
 Problem | Solution
 ------- | --------
 [Count on a tree II](https://www.spoj.com/problems/COT2/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/Mo_sAlgorithm/Count-on-a-tree-II/Count-on-a-tree-II.cpp)
+[Noel's Deliveries](https://www.urionlinejudge.com.br/judge/en/problems/view/2476) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/Mo_sAlgorithm/Noel-s-Deliveries/Noel-s-Deliveries.cpp)
