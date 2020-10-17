@@ -22,3 +22,6 @@ Problem | Solution
 [Ballet](https://neps.academy/problem/536) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Ballet/Ballet.cpp)
 [Bow and Arrow](https://neps.academy/problem/6) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Bow-and-Arrow/Bow-and-Arrow.cpp)
 [High Five](https://www.urionlinejudge.com.br/judge/en/problems/view/2539) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/High-Five/High-Five.cpp)
+
+## Fenwick Tree for max
+[Fundraising](https://www.urionlinejudge.com.br/judge/en/problems/view/2700) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Fundraising/Fundraising.cpp)
