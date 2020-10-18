@@ -1,8 +1,8 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem:
-	Link:
-	Origin:
+	Problem: Fibonacci Sum
+	Link: https://www.spoj.com/problems/FIBOSUM/
+	Origin: Unknown
 */
 #include <bits/stdc++.h>
 using namespace std;
