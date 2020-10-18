@@ -31,3 +31,9 @@ Problem | Solution
 Problem | Solution
 ------- | --------
 [Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Range-Set-Query/Range-Set-Query.cpp)
+
+## Segment Tree + Fenwick Tree
+
+Problem | Solution
+------- | --------
+[Queue](https://neps.academy/problem/67) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/SegmentTree/Queue/Queue.cpp)
