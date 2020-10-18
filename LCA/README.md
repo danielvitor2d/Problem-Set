@@ -14,3 +14,9 @@ Problem | Solution
 Problem | Solution
 ------- | --------
 [Water Crisis](https://www.urionlinejudge.com.br/judge/en/problems/view/2789) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LCA/Water-Crisis/Water-Crisis.cpp)
+
+## LCA + Kruskal
+
+Problem | Solution
+------- | --------
+[Imperial Roads](https://www.urionlinejudge.com.br/judge/en/problems/view/2703) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LCA/Imperial-Roads/Imperial-Roads.cpp)
