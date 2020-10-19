@@ -128,6 +128,7 @@ int n, q;
 
 int x, k, i, j;
 vi v, C;
+vvi a;
 
 int main() {
 	fastIO();
@@ -143,8 +144,11 @@ int main() {
 	sort(all(C));
 	C.erase(unique(all(C)), C.end());
 
+	a = vvi(C.size());
+
 	for (int i = 0; i < n; ++i) {
 		v[i] = lower_bound(all(C), v[i]) - C.begin();
+		a[v[i]].pb(i);
 	}
 
 	WaveletTree WT(v, C.size());
@@ -152,17 +156,12 @@ int main() {
 	while (q--) {
 		cin >> k >> i >> j;
 		int c = WT.quantile(k, 0, i);
-		int lo = 0, hi = n-1, best, ans = -1;
-		while (lo <= hi) {
-			best = (lo+hi)/2;
-			if (WT.rank(c, best) >= j) {
-				ans = best;
-				hi = best - 1;
-			} else {
-				lo = best + 1;
-			}
+
+		if (j > (int)a[c].size()) {
+			cout << -1 << '\n';
+		} else {
+			cout << a[c][j-1] << '\n';
 		}
-		cout << ans << '\n';
 	}
 
 	return 0;
