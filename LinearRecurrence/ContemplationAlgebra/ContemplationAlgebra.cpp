@@ -17,7 +17,7 @@ struct M {
 			for (int j = 0; j < D; ++j) {
 				res[i][j] = 0;
 				for (int k = 0; k < D; ++k) {
-					res[i][j] = res[i][j] + m[i][k] * oth[k][j];
+					res[i][j] += m[i][k] * oth[k][j];
 				}
 			}
 		}
@@ -44,13 +44,12 @@ i64 p, q, n;
 int main() {
 	ios_base::sync_with_stdio(0), cin.tie(0);
 
-	while (cin >> p >> q and (p or q)) {
-		cin >> n;
+	while (cin >> p >> q >> n) {
 		M base;
 		base[0][0] = p; base[0][1] = -1;
 		base[1][0] = q; base[1][1] = 0;
 		base = base.exp(n);	
-		cout << 2*base[0][0] + p*base[0][1] << '\n';
+		cout << 2LL*base[0][0] + p*base[0][1] << '\n';
 	}
 
 	return 0;
