@@ -1,6 +1,6 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem: Tribonacc
+	Problem: Tribonacci
 	Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=0&problem=3914&mosmsg=Submission+received+with+ID+25636211
 	Origin: Unknown
 */
