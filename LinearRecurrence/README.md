@@ -7,7 +7,7 @@ Problem | Solution
 [Recursive Sequence](https://www.spoj.com/problems/SEQ/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Recursive-Sequence/Recursive-Sequence.cpp)
 [Recursive Sequence II](https://www.spoj.com/problems/SPP/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Recursive-Sequence-II/Recursive-Sequence-II.cpp)
 [Fibonacci Sum](https://www.spoj.com/problems/FIBOSUM/) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Fibonacci-Sum/Fibonacci-Sum.cpp)
-[Modular Fibonacci](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=790&page=show_problem&problem=1170) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Modular-Fibonacci/Modular-Fibonacci.cpp)
+[Modular Fibonacci](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=790&page=show_problem&problem=1170) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/ModularFibonacci/ModularFibonacci.cpp)
 
 ## Other problems
 
