@@ -1,8 +1,8 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
-	Problem: Puzzle
-	Link: https://neps.academy/problem/100
-	Origin: SBC Programming Marathon 2017 - National Stage
+	Problem: Flow In Wagons
+	Link: https://www.urionlinejudge.com.br/judge/pt/problems/view/2857
+	Origin: Unknown
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,7 +28,7 @@ const double eps = 1e-9;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define ms(a, x) memset(a, x, sizeof(a))
-#define len(x) (x).size()
+#define len(x) (int)(x).size()
 #define pb push_back
 #define eb emplace_back
 #define fi first
@@ -44,13 +44,48 @@ const int inf = 0x3f3f3f3f;
 const int maxn = 1e5+5;
 const int mod = 1e9+7;
 
-string s;
-int n;
+int n, ft[maxn];
+
+void add(int idx, int value) {
+	for (; idx <= n; idx += (idx & -idx)) {
+		ft[idx] += value;
+	}
+}
+
+int sum(int idx) {
+	int rs = 0;
+	for (; idx > 0; idx -= (idx & -idx)) {
+		rs += ft[idx];
+	}
+	return rs;
+}
+
+int query(int l, int r) {
+	return sum(r) - sum(l-1);
+}
+
+int m;
+int op, a, b, c, d;
 
 int main() {
 	fastIO();
-	cin >> s >> n;
-	
+
+	cin >> n >> m;
+
+	while (m--) {
+		cin >> op;
+		if (op == 1) {
+			cin >> a >> b;
+			add(a, b);
+		} else {
+			cin >> a >> b >> c >> d;
+			if (d < a or b < c) {
+				cout << query(a, b) + query(c, d) << '\n';
+			} else {
+				cout << query(min(a, c), max(b, d)) << '\n';
+			}
+		}
+	}
 
 	return 0;
 }
