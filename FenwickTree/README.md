@@ -27,3 +27,8 @@ Problem | Solution
 Problem | Solution
 ------- | --------
 [Fundraising](https://www.urionlinejudge.com.br/judge/en/problems/view/2700) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Fundraising/Fundraising.cpp)
+
+## Other problems
+Problem | Solution
+------- | --------
+[Frequency](https://www.urionlinejudge.com.br/judge/pt/problems/view/2467) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/tree/main/FenwickTree/Frequency/Frequency.cpp)
