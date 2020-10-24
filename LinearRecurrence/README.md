@@ -18,3 +18,4 @@ Problem | Solution
 [Contemplation Algebra](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=790&page=show_problem&problem=1596) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/ContemplationAlgebra/ContemplationAlgebra.cpp)
 [How Many Recursive Calls](https://www.urionlinejudge.com.br/judge/pt/problems/view/1033) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/HowManyRecursiveCalls/HowManyRecursiveCalls.cpp)
 [Bacteria](https://www.urionlinejudge.com.br/judge/pt/problems/view/1422) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Bacteria/Bacteria.cpp)
+[Teleportation](https://www.urionlinejudge.com.br/judge/pt/problems/view/1713) | [Link to the solution](https://github.com/danielvitor2d/Problem-Set/blob/main/LinearRecurrence/Teleportation/Teleportation.cpp)
