@@ -53,9 +53,11 @@ vvi ar;
 i64 query(bool t) {
 	i64 query_answer = 0LL;
 	for (int r1 = 1; r1 <= n; ++r1) {
+
 		vi col(n+1, (t ? inf : -inf));
 
 		for (int r2 = r1; r2 <= n; ++r2) {
+
 			for (int i = 1; i <= n; ++i) {
 				if (t) col[i] = min(col[i], ar[r2][i]);
 				else col[i] = max(col[i], ar[r2][i]);
@@ -65,7 +67,7 @@ i64 query(bool t) {
 
 			stack<int> st;
 			for (int i = 1; i <= n; ++i) {
-				while (!st.empty() and (t ? col[i] <= col[st.top()]: col[i] >= col[st.top()])) {
+				while (!st.empty() and (t ? col[i] <= col[st.top()] : col[i] >= col[st.top()])) {
 					right[st.top()] = i;
 					st.pop();
 				}
@@ -75,7 +77,7 @@ i64 query(bool t) {
 			while (!st.empty()) st.pop();
 
 			for (int i = n; i >= 1; --i) {
-				while (!st.empty() and (t ? col[i] < col[st.top()]: col[i] > col[st.top()])) {
+				while (!st.empty() and (t ? col[i] < col[st.top()] : col[i] > col[st.top()])) {
 					left[st.top()] = i;
 					st.pop();
 				}
