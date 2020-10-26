@@ -44,25 +44,25 @@ const int inf = 0x3f3f3f3f;
 const int maxn = 100+5;
 const int mod = 1e9+7;
 
-int get(char c) {
+inline int get(char c) {
 	if ('a' <= c and c <= 'j') return 0;
 	return 1;
 }
 
-int to(char c) {
+inline int to(char c) {
 	if ('a' <= c and c <= 'j') return (c-'a');
 	return c-'A';
 }
 
 int n, target;
 char gr[maxn][maxn];
+queue<ii> q;
+vvi dist;
 
 int solve(int i, int j) {
-
-	queue<ii> q;
 	q.emplace(i, j);
 
-	vvi dist(n, vi(n, inf));
+	dist = vvi(n, vi(n, inf));
 	dist[i][j] = 0;
 
 	while (!q.empty()) {
@@ -70,7 +70,7 @@ int solve(int i, int j) {
 		for (int k = 0; k < 4; ++k) {
 			int ni = u.fi + dtx[k], nj = u.se + dty[k];
 			if (0 > ni or ni > n-1 or 0 > nj or nj > n-1 or dist[ni][nj] != inf) continue;
-			if (get(gr[ni][nj]) == ((target >> to(gr[ni][nj])) & 1)) {
+			if (((target >> to(gr[ni][nj])) & 1) == get(gr[ni][nj])) {
 				dist[ni][nj] = dist[u.fi][u.se] + 1;
 				q.emplace(ni, nj);
 			}
@@ -95,7 +95,7 @@ int main() {
 
 	for (int mask = 0; mask < (1 << 10); ++mask) {
 		target = mask;
-		if (get(gr[0][0]) == ((target >> to(gr[0][0])) & 1)) {
+		if (((target >> to(gr[0][0])) & 1) == get(gr[0][0])) {
 			ans = min(ans, 1 + solve(0, 0));
 		}
 	}
@@ -105,13 +105,3 @@ int main() {
 
 	return 0;
 }
-
-/*
-6
-DdaAaA
-CBAcca
-eEaeeE
-bBbabB
-DbDdDc
-fFaAaC
-*/
