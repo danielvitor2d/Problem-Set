@@ -1,7 +1,7 @@
 /*
 	Author: [UFC-QXD] Daniel Vitor Pereira Rodrigues <danielvitor@alu.ufc.br>
 	Problem: Museum
-	Link: https://neps.academy/problem/613
+	Link: https://neps.academy/problem/613, https://www.urionlinejudge.com.br/judge/pt/problems/view/2308
 	Origin: OBI 2006 - First Phase - Level 2
 */
 #include <bits/stdc++.h>
